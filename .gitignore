@@ -1,0 +1,59 @@
+# Ignore Node.js dependencies
+notebytes-client/node_modules/
+notebytes-client/.turbo/
+notebytes-client/.next/
+notebytes-client/.cache/
+notebytes-client/dist/
+notebytes-client/build/
+notebytes-client/.parcel-cache/
+
+# Ignore environment variables
+notebytes-client/.env
+notebytes-client/.env.local
+notebytes-client/.env.development.local
+notebytes-client/.env.test.local
+notebytes-client/.env.production.local
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and lock files
+notebytes-client/npm-debug.log*
+notebytes-client/yarn-debug.log*
+notebytes-client/yarn-error.log*
+notebytes-client/pnpm-debug.log*
+notebytes-client/package-lock.json
+notebytes-client/yarn.lock
+notebytes-client/pnpm-lock.yaml
+
+# Ignore .NET Core build files
+NoteBytes.Server/bin/
+NoteBytes.Server/obj/
+NoteBytes.Server/.vs/
+NoteBytes.Server/.vscode/
+
+# Ignore .NET secrets and user-specific config
+NoteBytes.Server/appsettings.Development.json
+NoteBytes.Server/secrets.json
+NoteBytes.Server/.user/
+
+# Ignore .NET package files
+NoteBytes.Server/packages/
+NoteBytes.Server/nuget/
+
+# Ignore publish output
+NoteBytes.Server/publish/
+NoteBytes.Server/wwwroot/
+
+# Ignore global .NET settings
+.dotnet/
+.nuget/

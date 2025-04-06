@@ -1,0 +1,6 @@
+@NoteBytes.Server_HostAddress = http://localhost:5043
+
+GET {{NoteBytes.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
